@@ -21,7 +21,7 @@ jobs:
         run: flutter pub get
 
       - name: Check formatting
-        run: flutter format .
+        run: dart format .
 
       - name: Run tests
         run: flutter test
